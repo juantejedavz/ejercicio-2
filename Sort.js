@@ -10,6 +10,6 @@ while(i>=0 && temp<lista[i]){
 	console.log(lista);
 }
 
-lista[i]=temp;
+lista[i+1]=temp;
 
 console.log(lista);
